@@ -78,7 +78,7 @@ namespace CafeSiparis
         }
 
         private void kolaArtiLabel_Click(object sender, EventArgs e)
-        {
+        {//.
             int kolasayisi = Convert.ToInt32(kolaSayisiLabel.Text);
             kolasayisi++;
             kolaSayisiLabel.Text = Convert.ToString(kolasayisi);
